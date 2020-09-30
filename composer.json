@@ -1,0 +1,29 @@
+{
+    "name": "binghua/turnipscalculate",
+    "description": "大頭菜計算機",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "u1045235",
+            "email": "u1045235@hk.edu.tw"
+        }
+    ],
+    "require": {
+        "php": "7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3",
+        "codedungeon/phpunit-result-printer": "^0.29.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "BingHua\\TurnipsCalculate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BingHua\\TurnipsCalculate\\Tests": "tests"
+        }
+    }
+}
