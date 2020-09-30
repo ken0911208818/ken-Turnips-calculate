@@ -1,4 +1,5 @@
 <?php
+
 namespace BingHua\TurnipsCalculate\Tests;
 
 use BingHua\TurnipsCalculate\SpoiledTurnips;
